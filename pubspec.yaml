@@ -1,0 +1,63 @@
+name: e_commerce_app_pletform
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  crypto: ^3.0.3
+  font_awesome_flutter: ^10.6.0
+  motion_tab_bar: ^2.0.4
+  material_design_icons_flutter: ^7.0.7296
+  curved_navigation_bar: ^1.0.3
+  google_fonts: ^6.2.0
+  url_launcher: ^6.2.5
+  buttons_tabbar: ^1.3.8
+  provider: ^6.1.1
+  flutter_image_slideshow: ^0.1.6
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "/Users/smey/Documents/netflix_app/.dart_tool/assets/icons/girl_icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Panno
+    - assets/images/home/
+    - assets/images/home/Slider/
+    #Shop
+    #_Phone
+    - assets/images/shop/Phone/Iphone/
+    - assets/images/shop/Phone/Samsung/
+    - assets/images/shop/Phone/Xioami/
+    #_Laptop
+    - assets/images/shop/Laptop/Macbook/
+    # #_Monitor
+    - assets/images/shop/Monitor/Asus-Monitor/
+    # #_TV
+    - assets/images/shop/TV/LG TV/
+    - assets/images/shop/TV/Samsung TV/
+    # #_Watch
+    - assets/images/shop/Watch/Apple Watch/
+
+    # #_Chat
+    - assets/images/Profile Chat/General/
+    - assets/images/Profile Chat/Group/
+    - assets/images/Profile Chat/Personal/
